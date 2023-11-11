@@ -1,0 +1,13 @@
+/* =====Section 2 Styling===== */
+.sec2-heading{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 90px;
+}
+
+.sec2-main{
+    background-color: #f8f8f8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}

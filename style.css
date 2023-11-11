@@ -1,0 +1,612 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: #232323;
+}
+
+/* ===main=== */
+.main {
+    height: 40em;
+    background-image: url('./img/slide-bg.jpg');
+    width: 100%;
+}
+
+
+
+/* ======Navbar Styling======= */
+
+.mainavbar {
+    position: sticky;
+}
+
+/* list styling */
+.list {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.about {
+    margin-left: 30px;
+    color: #fff;
+}
+
+.about:hover {
+    color: #0569c4;
+}
+
+.purchase {
+    margin-right: 55px;
+    margin-left: 30px;
+    color: #fff;
+}
+
+.purchase:hover {
+    color: #0569c4;
+}
+
+/* Style the text Menu */
+.menu-text {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 4px;
+    position: fixed;
+}
+
+
+.navbar-toggler {
+    background-color: #151515;
+    border: none;
+    color: white;
+    border-radius: 0;
+    height: 42px;
+    width: 90px;
+    position: fixed;
+    margin-left: 34em;
+    margin-right: auto;
+}
+
+.navbar-toggler:hover {
+    background-color: black;
+}
+
+
+/* =====Section 1 Styling=====  */
+
+.heading1 {
+    margin-top: 140px;
+    font-size: 55px;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: 700;
+}
+
+.para1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-right: 6em;
+    margin-left: 7em;
+    margin-bottom: 36px;
+    color: azure;
+}
+
+
+.ankher {
+    background-color: #0468c5;
+    border: 1px solid #0468c5;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 40px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.ankher:hover {
+    background-color: #333;
+}
+
+/* =====Section 2 Styling===== */
+.section2 {
+    margin-top: 5em;
+}
+
+.text {
+    font-size: 26px;
+    font-weight: 200;
+    margin-top: 5px;
+}
+
+.para2 {
+    margin-top: 15px;
+}
+
+.img {
+    width: 27em;
+    margin-left: auto;
+}
+
+.leader {
+    font-weight: 200;
+}
+
+p {
+    font-size: 15px;
+    line-height: 25px;
+    display: block;
+
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon .menu-text {
+    display: block;
+}
+
+
+/* ===Section 3 Styling==== */
+.sec3main {
+    background-color: #f8f8f8;
+    padding-bottom: 3em;
+}
+
+.popular-products {
+    margin-top: 80px;
+    padding-top: 60px;
+}
+
+.popular-products h2 {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+
+}
+
+.popular-products p {
+    font-size: 20px;
+    color: #8a8b8a;
+}
+
+.products {
+    margin-top: 50px;
+}
+
+.products h4 {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.products a {
+    background-color: #0468c5;
+    border: 1px solid #0468c5;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.products a:hover {
+    background-color: #fff;
+    color: #0468c5;
+}
+
+.products p {
+    margin-top: 20px;
+}
+
+/* ====Section 4 Styling==== */
+.picture-gallery h2 {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+.picture-gallery p {
+    font-size: 20px;
+    color: #8a8b8a;
+}
+
+.picture-gallery-row div img {
+    margin-top: 30px;
+}
+
+
+/* ====Section 5 Styling==== */
+
+
+.ourprogress-sec {
+    background-color: #0468c5;
+    padding-top: 15px;
+    margin-top: 35px;
+    padding-bottom: 80px;
+}
+
+.our-progress h2 {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 80px;
+    color: #fff;
+}
+
+.our-progress p {
+    font-size: 23px;
+    color: #fff;
+    font-weight: lighter;
+}
+
+.our-progress h3 {
+    color: #fff;
+    font-size: 45px;
+    margin-top: 30px;
+}
+
+
+/* ====Section 6 Styling===== */
+.purchase-sunshine{
+    background-image: url('img/Untitled\ design\ \(5\)\ \(1\).jpg');
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 80px;
+    background-position: right;
+}
+
+.purchase h1 { 
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    font-size: 45px;
+    margin-top: 80px;
+    color: #fff;
+}
+
+.purchase button {
+    width: 18em;
+    border-radius: 30px;
+    height: 70px;
+    border: none;
+    background-color: #0468c5;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.purchase button:hover{
+    background-color: #333;
+}
+
+.btn-icon{
+    margin-right: 10px;
+}
+
+.purchase a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ===Footer Styling=== */
+.mainfooter{
+    background-color: black;
+    width: 100%;
+}
+.footer{
+    color: #fff;
+}
+
+.icon{
+    color:#0468c5 ;
+    margin-right: 5px;
+}
+
+.footer-link{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.footer-link p {
+    color: #fff;
+}
+
+.footer-link p:hover{
+    color: #0468c5;
+}
+
+.created{
+    color: #bb70c9;
+}
+
+
+
+
+
+/* ===Media Querry for responsive==== */
+@media only screen and (max-width: 2000px) and (min-width : 768px) {
+    .section2main {
+        display: flex;
+    }
+
+}
+
+@media only screen and (max-width : 1199px) {
+    .heading1 {
+        margin-top: 100px;
+        font-size: 47px;
+        ;
+    }
+
+    .para1 {
+        font-size: 20px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width:991px) and (min-width : 768px) {
+
+    /* ====navbar=== */
+    #navLinks {
+        display: block;
+        position: fixed;
+        top: 70px;
+        right: 0;
+        background-color: black;
+        z-index: 1000;
+    }
+
+    /* =====Section 1 responsive==== */
+    .heading1 {
+        font-size: 50px;
+    }
+
+    .para1 {
+        font-weight: 100;
+    }
+
+    .ankher {
+        padding: 12px 35px;
+        font-size: 17px;
+    }
+
+    .navbar-toggler {
+        margin-left: 30em;
+    }
+
+    /* ====Section 2 responsive==== */
+    .img {
+        margin-left: 5em;
+        width: 24em;
+    }
+
+    .support {
+        margin-left: 3em;
+    }
+
+    .row.d-block {
+        display: block;
+    }
+
+    .col-md-6.col-sm-12 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .section2main .col-md-6 {
+        width: 50%;
+    }
+
+    .section2main .col-md-6:first-child {
+        margin-right: 2%;
+    }
+
+    .sunshine,
+    .leader {
+        text-align: center;
+    }
+
+
+}
+
+@media only screen and (max-width:767px) and (min-width : 504px) {
+
+    /* ====navbar=== */
+    #navLinks {
+        display: block;
+        position: fixed;
+        top: 70px;
+        right: 0;
+        background-color: black;
+        z-index: 1000;
+    }
+
+    .heading1 {
+        margin-top: 50px;
+    }
+
+    .navbar-toggler {
+        margin-left: 20em;
+    }
+
+    .sunshine,
+    .leader {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:503px) and (min-width : 400px) {
+
+    /* ====navbar=== */
+    #navLinks {
+        display: block;
+        position: fixed;
+        top: 70px;
+        right: 0;
+        background-color: black;
+        z-index: 1000;
+    }
+
+    .heading1 {
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+    .para1 {
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 19px;
+    }
+
+    .ankher {
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+
+    .navbar-toggler {
+        margin-left: 280px;
+    }
+
+    .sunshine,
+    .leader {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width : 474px){
+    .footer-link{
+        display: block;
+    }
+}
+
+@media only screen and (max-width : 399px) and (min-width : 350px) {
+
+    /* ====navbar=== */
+    #navLinks {
+        display: block;
+        position: fixed;
+        top: 70px;
+        right: 0;
+        background-color: black;
+        z-index: 1000;
+    }
+
+    .heading1 {
+        margin-top: 35px;
+        font-size: 25px;
+    }
+
+    .para1 {
+        margin-left: 11px;
+        margin-left: 12px;
+        font-size: 17px;
+    }
+
+    .navbar-toggler {
+        margin-left: 250px;
+    }
+
+    .logoimg {
+        width: 200px;
+        height: 65px;
+    }
+
+    .sunshine,
+    .leader {
+        text-align: center;
+    }
+
+    .our-progress p {
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width : 349px) and (min-width : 300px) {
+
+    /* ====navbar=== */
+    #navLinks {
+        display: block;
+        position: fixed;
+        top: 70px;
+        right: 0;
+        background-color: black;
+        z-index: 1000;
+    }
+
+    .heading1 {
+        margin-top: auto;
+        font-size: 25px;
+    }
+
+    .para1 {
+        margin-left: 2px;
+        margin-left: 2px;
+    }
+
+    .navbar-toggler {
+        margin-left: 200px;
+    }
+
+    .logoimg {
+        width: 200px;
+        height: 65px;
+    }
+
+    .ankher {
+        padding: 10px 30px;
+        font-size: 15px;
+    }
+
+    .sunshine,
+    .leader {
+        text-align: center;
+    }
+
+    .our-progress h2{
+        font-size: 40px;
+    }
+
+    .our-progress p {
+        font-size: 18px;
+    }
+
+    .our-progress h3{
+        font-size: 40px
+    }
+     
+    .purchase h1{
+        font-size: 40px;
+    }
+
+    .purchase button{
+        width: 15em;
+    }
+}

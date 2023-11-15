@@ -47,3 +47,11 @@ function messageUs()
 {
     window.location.href = 'https://www.facebook.com/'
 }
+
+
+// ====Loader====
+document.addEventListener("DOMContentLoaded", function () {
+  setTimeout(function () {
+    document.getElementById("loader-wrapper").style.display = "none";
+  }, 2000);
+});
